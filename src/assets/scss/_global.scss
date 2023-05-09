@@ -1,4 +1,6 @@
-@use 'mixins' as _mix;
+@use 'mixins/mix_header' as _mix_header;
+@use 'mixins/mix_grid' as _mix_grid;
+@use 'mixins/mix_button' as _mix_button;
 
 html, body {
   margin: 0;
@@ -6,4 +8,16 @@ html, body {
   * {
     box-sizing: border-box;
   }
+}
+
+.btn {
+  &__text {
+    font-size: 1em;
+  }
+
+  &__icon {
+    margin-right: 0.5em;
+  }
+
+  @include _mix_button.button-states;
 }

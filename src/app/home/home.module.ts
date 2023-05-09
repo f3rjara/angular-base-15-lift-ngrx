@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './pages/home/home.component';
+import { AloneButtonComponent } from '../shared/components/atoms/alone-button/alone-button.component';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { HomeComponent } from './pages/home/home.component';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    AloneButtonComponent
   ]
 })
 export class HomeModule { }

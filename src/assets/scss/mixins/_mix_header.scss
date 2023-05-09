@@ -1,0 +1,45 @@
+@use 'src/assets/scss/vars'  as _vars;
+
+// Define el mixin para los estilos de los títulos
+@mixin title-styles {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-family: _vars.$font-heading;
+}
+
+// Define los estilos para los títulos en pantallas móviles
+h1, h2, h3, h4, h5, h6 {
+  @include title-styles;
+  font-size: _vars.$mobile-font-size;
+}
+
+// Agrega estilos para tabletas
+@media ( min-width: _vars.$tablet) {
+  h1 {
+    font-size: _vars.$tablet-font-size * 2;
+  }
+  h2 {
+    font-size: _vars.$tablet-font-size * 1.5;
+  }
+  h3 {
+    font-size: _vars.$tablet-font-size;
+  }
+}
+
+// Agrega estilos para pantallas de escritorio
+@media (min-width: _vars.$desktop) {
+  h1 {
+    font-size: _vars.$desktop-font-size * 2.5;
+  }
+  h2 {
+    font-size: _vars.$desktop-font-size * 2;
+  }
+  h3 {
+    font-size: _vars.$desktop-font-size * 1.5;
+  }
+  h4 {
+    font-size: _vars.$desktop-font-size;
+  }
+}
