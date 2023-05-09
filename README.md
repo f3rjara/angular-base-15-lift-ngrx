@@ -7,7 +7,7 @@
 
   <img src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png" alt="jest-logo" width="105px" height="105px"/>
 
-  <img src="https://plugins.jetbrains.com/files/10456/329405/icon/pluginIcon.png" alt="prettier-logo" width="115px" height="115px"/>
+  <img src="https://seeklogo.com/images/P/prettier-logo-D5C5197E37-seeklogo.com.png" alt="prettier-logo" width="115px" height="115px"/>
 
   <br>
   <i>Angular es una plataforma de desarrollo para crear aplicaciones web móviles y de escritorio <br> utilizando Typescript/JavaScript y otros lenguajes</i>
