@@ -36,4 +36,18 @@
       <app-alone-button>Alone Button</app-alone-button>
     </div>
   </div>
+
+
+
+  <div class="row">
+    <div class="col-12">
+      <br><br><br>
+      Use the RXJS NgRx Store Component -> Contador:
+      <hr>
+      <h2>{{ count$ | async }}</h2>
+      <button class="btn" (click)="decrementar()">Decrementar</button>
+      <button class="btn" (click)="incrementar()">Incrementar</button>
+      <button class="btn" (click)="reset()">Reset</button>
+    </div>
+  </div>
 </div>

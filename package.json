@@ -23,6 +23,8 @@
     "@angular/platform-browser": "^15.1.0",
     "@angular/platform-browser-dynamic": "^15.1.0",
     "@angular/router": "^15.1.0",
+    "@ngrx/store": "^15.4.0",
+    "@ngrx/store-devtools": "^15.4.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
@@ -36,6 +38,7 @@
     "@angular-eslint/template-parser": "15.2.1",
     "@angular/cli": "~15.1.6",
     "@angular/compiler-cli": "^15.1.0",
+    "@ngrx/eslint-plugin": "^15.4.0",
     "@types/jest": "^29.5.1",
     "@typescript-eslint/eslint-plugin": "5.48.2",
     "@typescript-eslint/parser": "5.48.2",
@@ -54,6 +57,8 @@
       "<rootDir>/setup-jest.ts"
     ],
     "globalSetup": "jest-preset-angular/global-setup",
-    "coverageReporters": ["html"]
+    "coverageReporters": [
+      "html"
+    ]
   }
 }
