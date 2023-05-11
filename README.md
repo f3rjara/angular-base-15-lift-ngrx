@@ -9,6 +9,8 @@
 
   <img src="https://seeklogo.com/images/P/prettier-logo-D5C5197E37-seeklogo.com.png" alt="prettier-logo" width="115px" height="115px"/>
 
+  <img src="https://ngrx.io/assets/images/badge.svg" alt="ngrx-logo" width="115px" height="115px"/>
+
   <br>
   <i>Angular es una plataforma de desarrollo para crear aplicaciones web móviles y de escritorio <br> utilizando Typescript/JavaScript y otros lenguajes</i>
   <br>
@@ -30,9 +32,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 |  package use  |  version  |
 |---------------|-----------|
-|  Angular CLI  |  15.1   |
-|  Node         |  16.16  |
-|  Npm          |  8.11    |
+|  Angular CLI  |  15.1     |
+|  Node         |  16.16    |
+|  Npm          |  8.11     |
+|  NGRX         |  15.X     |
 
 
 ## Development server
